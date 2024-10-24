@@ -190,58 +190,6 @@ span{
 }
 
 
-@keyframes cursor{
-    to{
-        border-left: 2px solid var(--main-color);
-    }
-}
-@keyframes words{
-    0%,
-    20%{
-        content: 'Frontend Web Developer';
-    }
-    21%,
-    40%{
-        content: 'App Developer';
-    }
-    41%,
-    60%{
-        content: 'UI / Ux Designer';
-    }
-    61%,
-    80%{
-        content: 'Flutter Developer';
-    }
-    81%,
-    100%{
-        content: '';
-    }
-}
-@keyframes typing{
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95%{
-        width: 0;
-    }
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85%{
-        width: calc(100% + 8px);
-    }
-}
 
 
 
